@@ -1,9 +1,15 @@
-function App() {
+import  {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import LandingPage from './LandingPage'
+
+export default function App() {
   return (
-    <div>
-      <h1>STEM Muslims Website</h1>
-    </div>
+      <>
+        <Router>
+          <Routes>
+            <Route path="" exact element={<LandingPage />} />
+          </Routes>
+        </Router>
+      </>
   );
 }
 
-export default App;
