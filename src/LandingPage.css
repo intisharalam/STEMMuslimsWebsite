@@ -1,0 +1,17 @@
+.main {
+    /* Full height */
+background-image: url("../public/welcomeimg.png");
+  height: 88vh;
+    margin:0px;
+    padding:0px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+}
+.title {
+    font-size: 50px;
+}
