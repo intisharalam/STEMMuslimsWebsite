@@ -21,7 +21,9 @@
   
   
   .img-responsive {
-    bottom: 100px;
+    position: absolute;
+      top: 0;
+      left: 0;
   }
   .title {
     color: white;
@@ -65,9 +67,6 @@
     display: none;
   }
   
-  .menu-icon {
-    display: none;
-  }
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
