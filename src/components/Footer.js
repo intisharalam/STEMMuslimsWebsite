@@ -4,7 +4,9 @@ import './Footer.css'
 export default function Footer() {
     return (
         <div className = "Footer">
-            {/* You can write your html code here */}
+            {/* You can write your html code here */
+            <title>WEEEEEEEEEEEEEEEEEE</title>
+            }
                 
         </div>
     )

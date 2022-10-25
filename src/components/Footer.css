@@ -1,3 +1,21 @@
 .Footer {
     background-color: #6D928C; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    width: 100%;
 }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 100%;
+    }
+
+    .footer-item{
+        height: 300px;
+    }
+
