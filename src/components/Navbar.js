@@ -10,15 +10,15 @@ import { Link } from 'react-router-dom';
 
 function NavbarHome() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    // const [button, setButton] = useState(true);
     const handleClick  = () => setClick(!click)
     const closeMenu = () => setClick(false)
     
   const showButton = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
+      // setButton(false);
     } else {
-      setButton(true);
+      // setButton(true);
     }
   };
 
