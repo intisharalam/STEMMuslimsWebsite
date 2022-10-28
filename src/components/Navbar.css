@@ -87,6 +87,10 @@
   .NavbarItems {
     position: relative;
   }
+  .navbar-title {
+    font-size:25px;
+    margin-left: 5px;
+  }
 
   .nav-menu {
     display: flex;
@@ -103,7 +107,8 @@
     position :absolute;
     top: 0;
     left:0;
-
+    height: 100px;
+    margin-left:0px;
   }
   .nav-menu.active {
     background: #242222;

@@ -11,7 +11,12 @@ export default function LandingPage() {
             <div className = "main">
                 <h1 className = "title">Welcome To Stem Muslims</h1>
             </div>
-
+            <div className = "info">
+                <h1 className = "info-title">
+                    Who we are
+                </h1>
+            </div>
+           
 
             <Footer />
         </div>
