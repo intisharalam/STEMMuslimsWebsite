@@ -1,3 +1,100 @@
-.justanexamplestyle {
-    color: red;
+/* Committee heading*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-txt{
+    font-style: normal;
+    font-weight: bold;
+    font-size: clamp(25px, 4vw, 38px);
+    line-height: 48px;    
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.header{
+    background-color: #E5E8E7;
+    display: inline-block;
+    text-align:center;
+    height: 145px;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+.divider{
+    width:90%;
+}
+
+/*Head brother and sister*/
+.committee-head{
+    height: 810px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+}
+.head-sister{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+.head-brother{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.head-name{
+    background: #577574;
+    width: auto;
+    padding: 7px;
+    border-radius: 15px;
+    margin: 15px;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+.head-title{
+    color: black;
+    font-size: clamp(20px, 3vw, 28px);
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 15px;
+}
+
+/*Committee members*/
+hr{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.committee-members{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    
+}
+.member-name, .member-role{
+    color: black;
+    text-align: center;
+    font-size: clamp(15px, 4vw, 25px);
+}
+.member-name{
+    font-weight: bold;
+}
+.member-role{
+    font-style: italic;
+}
+.column{
+    margin-right: 50px;
+    margin-left: 50px;
 }

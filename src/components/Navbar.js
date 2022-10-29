@@ -31,8 +31,8 @@ function NavbarHome() {
                             </Link>
                             </li>
                             <li className = 'nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMenu}>
-                                     Your Support Network
+                            <Link to='/committee' className='nav-links' onClick={closeMenu}>
+                                    Support Network
                             </Link>                           
                              </li>
                             <li className = 'nav-item'>

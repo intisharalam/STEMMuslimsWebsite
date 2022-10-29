@@ -16,8 +16,6 @@ export default function LandingPage() {
                     Who we are
                 </h1>
             </div>
-           
-
             <Footer />
         </div>
     );
