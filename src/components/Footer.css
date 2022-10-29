@@ -1,3 +1,32 @@
 .Footer {
     background-color: #6D928C; 
+    height: 393px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    width: 100%;
 }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        
+        line-height: 48px;
+        align-items: center;
+        height: 68px;
+        width: 516px;
+        background: #E5E8E7;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+
+
+    }
+
+    .footer-item{
+        height: 300px;
+    }
+
